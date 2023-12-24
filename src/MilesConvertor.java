@@ -11,6 +11,6 @@ public class MilesConvertor {
       double distance_in_miles = input.nextDouble();
       double distance_in_kilometer = distance_in_miles *  1.609344;
       System.out.println("Distance from miles to kilometer: "+distance_in_kilometer);
-      System.out.println("Added by bhagya ");
+
   }
 }
