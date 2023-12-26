@@ -7,10 +7,12 @@ public class MilesConvertor {
       String starting_point = input.nextLine();
       System.out.println("Enter the starting point city");
       String ending_point = input.nextLine();
-      System.out.println("Enter the distance between cities in miles");
+      System.out.println("Enter the distance between cities in meals");
       double distance_in_miles = input.nextDouble();
       double distance_in_kilometer = distance_in_miles *  1.609344;
       System.out.println("Distance from miles to kilometer: "+distance_in_kilometer);
+//      System.out.println("Enter the distance between cities in meals");
+
 
   }
 }
